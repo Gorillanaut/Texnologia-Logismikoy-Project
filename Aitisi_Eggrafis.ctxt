@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Aitisi_Eggrafis
+comment1.params=onoma\ eponimo\ at\ username\ password\ email\ address\ path\ imerominia_kataxorisis\ katastasi
+comment1.target=Aitisi_Eggrafis(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.Date,\ java.lang.String)
+numComments=2
