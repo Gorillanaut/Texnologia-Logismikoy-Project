@@ -34,9 +34,91 @@ class Pliromi
      this.kodikos_eisitiriou = kodikos_eisitiriou;
      
      this.imerominia_pliromis = imerominia_pliromis;
-     
-     
-     
-     
     }
+ 
+    public int get_kodikos()
+    {
+        return kodikos;
+    }
+    public void set_kodikos (int kodikos)
+    {
+        this.kodikos = kodikos;
+    }
+
+    public String get_arithmos_kartas()
+    {
+        return arithmos_kartas;
+    }
+    public void set_arithmos_kartas (String arithmos_kartas)
+    {
+        this.arithmos_kartas = arithmos_kartas;
+    }
+
+    public String get_onomateponimo()
+    {
+        return onomateponimo;
+    }
+    public void set_onomateponimo (String onomateponimo)
+    {
+        this.onomateponimo = onomateponimo;
+    }
+ 
+    public float get_poso_pliromis()
+    {
+        return poso_pliromis;
+    }
+    public void set_poso_pliromis (float poso_pliromis)
+    {
+        this.poso_pliromis = poso_pliromis;
+    }
+    
+    public String get_username_politi()
+    {
+        return username_politi;
+    }
+    public void set_username_politi (String username_politi)
+    {
+        this.username_politi = username_politi;
+    }
+    
+    public int kodikos_eisitiriou()
+    {
+        return kodikos_eisitiriou;
+    }
+    public void set_kodikos_eisitiriou (int kodikos_eisitiriou)
+    {
+        this.kodikos_eisitiriou = kodikos_eisitiriou;
+    }
+     
+    public Date get_imerominia_pliromis()
+    {
+        return imerominia_pliromis;
+    }
+    public void set_imerominia_pliromis(Date imerominia_pliromis)
+    {
+        this.imerominia_pliromis = imerominia_pliromis;
+    }
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

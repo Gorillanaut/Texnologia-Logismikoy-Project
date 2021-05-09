@@ -32,6 +32,81 @@ class Parastasi
      this.imerominia_ora = imerominia_ora;
        
     }
+    public int get_kodikos()
+    {
+        return kodikos;
+    }
+    public void set_kodikos(int kodikos)
+    {
+        this.kodikos = kodikos;
+    }
+    
+    public String get_titlos()
+    {
+        return titlos;
+    }
+    public void set_titlos(String titlos)
+    {
+        this.titlos = titlos;
+    }
+    
+    public String get_perigrafi()
+    {
+        return perigrafi;
+    }
+    public void set_perigrafi(String perigrafi)
+    {
+        this.perigrafi = perigrafi;
+    }
+    
+    public int get_theseis()
+    {
+        return theseis;
+    }
+    public void set_theseis(int theseis)
+    {
+        this.theseis = theseis;
+    }
+    
+    public int get_eisitiria()
+    {
+        return eisitiria;
+    }
+    public void set_eisitiria(int eisitiria)
+    {
+        this.eisitiria = eisitiria;
+    }
+        
+    public Date get_imerominia_ora()
+    {
+        return imerominia_ora;
+    }
+    public void set_imerominia_ora(Date imerominia_ora)
+    {
+        this.imerominia_ora = imerominia_ora;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }
