@@ -15,5 +15,29 @@ class Admin
      
     }
     
+    public String get_password()
+    
+    {
+     return password;   
+    }
+    
+    public void set_password(String p)
+    
+    {
+        password =p;
+    }
+    
+    public String get_username()
+    
+    {
+     return username;   
+    }
+    
+    public void set_username(String u)
+    
+    {
+     username = u;   
+    }
+    
     
 }
