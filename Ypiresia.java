@@ -26,6 +26,52 @@ class Ypiresia
      
     }
  
+    public int get_kodikos()
+  
+  {
+     return kodikos; 
+    }
+ 
+ public void set_kodikos(int k)
+ 
+ {
+     kodikos = k;
+    }
     
+    public String get_titlos()
+ 
+ {
+     return titlos;
+    }
+ 
+ public void set_titlos(String a)
+ 
+ {
+     titlos= a;
+    }
+    
+    public Date get_orario_leitourgias()
+    
+    {
+     return orario_leitourgias;   
+    }
+    
+    public void set_orario_leitourgias(Date i)
+    
+    {
+     orario_leitourgias=i;   
+    }
+    
+   public Ipallilos get_ipefthinos_ypallilos()
+    
+    {
+     return ipefthinos_ypallilos;   
+    }
+    
+    public void set_ipefthinos_ypallilos(Ipallilos j)
+    
+    {
+     ipefthinos_ypallilos=j;   
+    } 
     
 }
