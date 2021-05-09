@@ -36,4 +36,78 @@ class Psifoforia
         
     }
     
+    
+    public void set_kodikos(int k)
+    
+    {
+        kodikos =k;
+    }
+    
+    public int get_kodiko()
+    
+    {
+     return kodikos;   
+    }
+    
+    public void set_imerominia_enarksis(Date ie)
+    
+    {
+         imerominia_enarksis=ie;
+    }
+    
+    public Date get_imerominia_enarksis()
+    
+    {
+     return imerominia_enarksis;   
+    }
+    
+    
+    public void set_imerominia_liksis(Date il)
+    
+    {
+        imerominia_liksis =il;
+    }
+    
+    public Date get_imerominia_liksis()
+    
+    {
+     return imerominia_liksis;   
+    }
+    
+    public void set_titlos(String t)
+    
+    {
+        titlos =t;
+    }
+    
+    public String get_titlo()
+    
+    {
+     return titlos;   
+    }
+    
+    public void set_erotima(String e)
+    
+    {
+        erotima =e;
+    }
+    
+    public String get_erotima()
+    
+    {
+     return erotima;   
+    }
+    
+    public void set_apotelesmata(String a)
+    
+    {
+        apotelesmata =a;
+    }
+    
+    public String get_apotelesmata()
+    
+    {
+     return apotelesmata;   
+    }
+   
 }

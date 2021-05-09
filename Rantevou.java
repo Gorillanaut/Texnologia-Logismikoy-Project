@@ -25,4 +25,52 @@ class Rantevou
         
     }
     
+     public void set_kodikos(int k)
+    
+    {
+        kodikos =k;
+    }
+    
+    public int get_kodiko()
+    
+    {
+     return kodikos;   
+    }
+    
+     public void set_kodikos_ypiresias(int k)
+    
+    {
+        kodikos_ypiresias =k;
+    }
+    
+    public int get_kodiko_ypiresias()
+    
+    {
+     return kodikos_ypiresias;   
+    }
+    
+    
+    public void set_imerominia_ora(Date ie)
+    
+    {
+         imerominia_ora=ie;
+    }
+    
+    public Date get_imerominia_ora()
+    
+    {
+     return imerominia_ora;   
+    }
+    
+     public void set_username_politi(String o)
+    
+    {
+        username_politi =o;
+    }
+    
+    public String get_username_politi()
+    
+    {
+     return username_politi;   
+    }
 }

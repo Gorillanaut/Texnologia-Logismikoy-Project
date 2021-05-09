@@ -32,5 +32,65 @@ class Statistika
      
     }
  
+  public void set_username_politi(String o)
     
+    {
+        username_politi =o;
+    }
+    
+    public String get_username_politi()
+    
+    {
+     return username_politi;   
+    }
+  
+  public void set_teleftaia_eisodos(Date il)
+    
+    {
+        teleftaia_eisodos =il;
+    }
+    
+    public Date get_teleftaia_eisodos()
+    
+    {
+     return teleftaia_eisodos;   
+    }
+    
+    public void set_kodikos(int k)
+    
+    {
+        kodikos =k;
+    }
+    
+    public int get_kodiko()
+    
+    {
+     return kodikos;   
+    }
+    
+    
+    public void set_plithos_ekkremwn_aitisewn(int k)
+    
+    {
+        plithos_ekkremwn_aitisewn =k;
+    }
+    
+    public int get_plithos_ekkremwn_aitisewn()
+    
+    {
+     return plithos_ekkremwn_aitisewn;   
+    }
+    
+    
+    public void set_plithos_ekkremwn_paraponwn(int k)
+    
+    {
+        plithos_ekkremwn_paraponwn =k;
+    }
+    
+    public int get_plithos_ekkremwn_paraponwn()
+    
+    {
+     return plithos_ekkremwn_paraponwn;   
+    }
 }
