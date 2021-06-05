@@ -1,3 +1,10 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.epatras;
+
 import java.util.Date;
 class Minima
 
@@ -14,6 +21,8 @@ class Minima
  private String periexomeno;
  
  private Date imerominia_ora;
+ 
+ private static int counter=0;
 
   public int get_kodikos()
   
@@ -84,10 +93,11 @@ class Minima
     {
      imerominia_ora=i;   
     }
- public Minima(int kodikos, String username_apostolea, String username_paralipti, String titlos, String periexomeno, Date imerominia_ora)
+ public Minima(String username_apostolea, String username_paralipti, String titlos, String periexomeno, Date imerominia_ora)
  
  {
-     this.kodikos = kodikos;
+     counter++;
+     this.kodikos = counter;
      
      this.username_apostolea  = username_apostolea;
      
