@@ -1,3 +1,10 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.epatras;
+
 import java.util.Date;
 
 class Parapono
@@ -17,6 +24,8 @@ class Parapono
     private String path_eikonas;
     
     private String Sxolia;
+    
+    private boolean status;
     
     
     
@@ -103,6 +112,19 @@ class Parapono
      Sxolia = s;   
     }
     
+    public boolean get_status()
+            
+    {
+        return status;
+    }
+    
+    public void set_status(boolean s)
+            
+    {
+        status = s;
+        
+    }
+    
     public Parapono(int kodikos, String titlos, String perigrafi, String username_politi, Date imerominia_kataxorisis, String path_eikonas, String sxolia)
     
     {
@@ -119,6 +141,8 @@ class Parapono
         this.path_eikonas = path_eikonas;
         
         this.Sxolia = sxolia;
+        
+        this.status=false;
         
     }
 }
