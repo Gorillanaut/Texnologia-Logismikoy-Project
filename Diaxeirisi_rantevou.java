@@ -4,10 +4,7 @@
  * and open the template in the editor.
  */
 
-/**
- *
- * @author jimva
- */
+
 public class diaxeirisi_rantevou extends javax.swing.JFrame {
 
     /** Creates new form diaxeirisi_rantevou */
