@@ -1,4 +1,9 @@
+
+package com.mycompany.epatras;
+
 import java.util.Date;
+
+import java.util.*;
 
 class Psifoforia
 
@@ -14,12 +19,12 @@ class Psifoforia
     
     private String erotima;
     
-    private String epiloges;
+    private ArrayList<String> epiloges = new ArrayList<String>();
     
     private String apotelesmata;
     
     
-    public Psifoforia(int kodikos, Date imerominia_enarksis,Date imerominia_liksis, String titlos, String erotima, String epiloges, String apotelesmata)
+    public Psifoforia(int kodikos, Date imerominia_enarksis,Date imerominia_liksis, String titlos, String erotima, ArrayList<String> epiloges, String apotelesmata)
     
     {
         this.kodikos=kodikos;
@@ -33,6 +38,8 @@ class Psifoforia
         this.erotima = erotima;
         
         this.apotelesmata = apotelesmata;
+        
+        this.epiloges = epiloges;
         
     }
     
@@ -110,4 +117,18 @@ class Psifoforia
      return apotelesmata;   
     }
    
+    
+    public ArrayList<String> get_epiloges()
+            
+    {
+        
+        return epiloges;
+    }
+    
+    public void set_epiloges(ArrayList<String> epiloges)
+            
+    {
+        
+        this.epiloges=epiloges;
+    }
 }
