@@ -1,4 +1,13 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.epatras;
+
 import java.util.Date;
+
+import java.util.*;
 
 class Ypiresia
 
@@ -9,18 +18,22 @@ class Ypiresia
  
  private String titlos;
  
- private Date orario_leitourgias;
+ private ArrayList<Date> from  = new ArrayList<Date>();
+ 
+ private ArrayList<Date> to  = new ArrayList<Date>();
  
  private Ipallilos ipefthinos_ypallilos;
  
- public Ypiresia(int kodikos, String titlos, Date orario_leitourgias, Ipallilos ipefthinos_ypallilos)
+ public Ypiresia(int kodikos, String titlos, ArrayList<Date> from, ArrayList<Date> to, Ipallilos ipefthinos_ypallilos)
  
  {
      this.kodikos = kodikos;
      
      this.titlos = titlos;
      
-     this.orario_leitourgias = orario_leitourgias;
+     this.from = from;
+     
+     this.to = to;
      
      this.ipefthinos_ypallilos = ipefthinos_ypallilos;
      
@@ -50,17 +63,32 @@ class Ypiresia
      titlos= a;
     }
     
-    public Date get_orario_leitourgias()
+    public ArrayList<Date> get_from()
     
     {
-     return orario_leitourgias;   
+     return from;   
     }
     
-    public void set_orario_leitourgias(Date i)
+    public ArrayList<Date> get_to()
+            
+    {
+        
+        return to;
+    }
+    
+    public void set_from(ArrayList<Date> from)
     
     {
-     orario_leitourgias=i;   
+     this.from=from;
     }
+    
+     public void set_to(ArrayList<Date> to)
+    
+    {
+     this.to=to;
+    }
+    
+    
     
    public Ipallilos get_ipefthinos_ypallilos()
     
