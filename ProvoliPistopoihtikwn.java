@@ -5,7 +5,10 @@
  */
 package com.mycompany.epatras;
 
-
+/**
+ *
+ * @author 30697
+ */
 public class ProvoliPistopoihtikwn extends javax.swing.JFrame {
 
     /**
