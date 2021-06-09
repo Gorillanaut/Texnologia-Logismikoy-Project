@@ -33,6 +33,12 @@ class Aitisi_Pistopoihtikou
       
       
     }
+  
+   public Aitisi_Pistopoihtikou()
+           
+   {
+       
+   }
     
     public int get_kodikos_aitisis()
     

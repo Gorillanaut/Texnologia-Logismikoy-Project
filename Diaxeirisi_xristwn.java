@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 
-
+/**
+ *
+ * @author jimva
+ */
 public class Diaxeirisi_xristwn extends javax.swing.JFrame {
 
     /**

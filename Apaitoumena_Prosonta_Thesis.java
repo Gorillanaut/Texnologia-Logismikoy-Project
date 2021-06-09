@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 
-
+/**
+ *
+ * @author jimva
+ */
 public class Apaitoumena_Prosonta_Thesis extends javax.swing.JFrame {
 
     /**
