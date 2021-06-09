@@ -31,6 +31,14 @@ public class Main {
     
     public static ArrayList<Minima> minimata = new ArrayList<Minima>();
     
+    public static ArrayList<Aitisi_Pistopoihtikou> aitiseis_pist = new ArrayList<Aitisi_Pistopoihtikou>();
+    
+    public static ArrayList<Thesi_Ergasias> theseis_ergasias = new ArrayList<Thesi_Ergasias>();
+    
+    public static ArrayList<Pistopoihtiko> pistopoihtika = new ArrayList<Pistopoihtiko>();
+    
+     public static ArrayList<Thesi_Parking> theseis_parking = new ArrayList<Thesi_Parking>();
+    
     public static void main(String[] args)
     {  
     
