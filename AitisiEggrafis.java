@@ -5,10 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- *
- * @author 30697
- */
+
 public class AitisiEggrafis extends javax.swing.JFrame {
 
     /**
