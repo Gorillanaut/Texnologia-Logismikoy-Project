@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.mycompany.epatras;
 
 import java.util.Date;
@@ -22,6 +26,15 @@ class Psifoforia
     private ArrayList<String> epiloges = new ArrayList<String>();
     
     private String apotelesmata;
+    
+    private ArrayList<String> apantiseis = new ArrayList<String>();
+    
+    
+    public void add_apantisi(String s)
+            
+    {
+     apantiseis.add(s);
+    }
     
     
     public Psifoforia(int kodikos, Date imerominia_enarksis,Date imerominia_liksis, String titlos, String erotima, ArrayList<String> epiloges, String apotelesmata)
