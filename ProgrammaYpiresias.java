@@ -5,7 +5,10 @@
  */
 package com.mycompany.epatras;
 
-
+/**
+ *
+ * @author 30697
+ */
 public class ProgrammaYpiresias extends javax.swing.JFrame {
 
     /**
