@@ -247,6 +247,115 @@ class Ipallilos
      return temp;
  }
  
+ String elegxos_profil_dimoti(Politis p)
+ {
+     String temp = "";
+     
+     for(Politis k: Main.polites)
+     {
+         if(k.get_at().equals(p.get_at()) && k.get_username().equals(p.get_username()))
+         {
+             temp = temp + k.get_onoma();
+             
+             temp = temp + " ";
+             
+             temp = temp + k.get_eponimo();
+             
+             temp = temp + " ";
+             
+             temp = temp + k.get_at();
+             
+             temp = temp + " ";
+             
+             temp = temp + k.get_username();
+             
+             temp = temp + " ";
+             
+             temp = temp + k.get_email();
+             
+             temp = temp + " ";
+             
+             temp = temp + k.get_address();
+             
+         }
+     }
+     
+     return temp;
+ }
+ 
+ ArrayList<Aitisi_Pistopoihtikou> get_aitiseis_pistopoihtikwn()
+ {
+     ArrayList<Aitisi_Pistopoihtikou> temp = new ArrayList<Aitisi_Pistopoihtikou>();
+     
+     for(Aitisi_Pistopoihtikou e: Main.aitiseis_pist)
+     {
+         temp.add(e);
+     }
+     
+     return temp;
+ }
+ 
+ void apodoxi_aitisis(Aitisi_Pistopoihtikou p)
+ {
+     for(Aitisi_Pistopoihtikou e: Main.aitiseis_pist)
+     {
+         if(e.get_kodikos_aitisis()==p.get_kodikos_aitisis())
+         {
+            e.set_katastasi("egkrinetai");
+         }
+     }
+ }
+ 
+ void aporripsi_aitisis(Aitisi_Pistopoihtikou p)
+         
+ {
+      for(Aitisi_Pistopoihtikou e: Main.aitiseis_pist)
+     {
+         if(e.get_kodikos_aitisis()==p.get_kodikos_aitisis())
+         {
+            e.set_katastasi("aporriptetai");
+         }
+     }
+ }
+ 
+ public ArrayList<Parapono> get_parapona()
+ {
+     ArrayList<Parapono> temp = new ArrayList<Parapono>();
+     
+     for(Parapono i: Main.parapona)
+     {
+         temp.add(i);
+     }
+     
+    return temp;
+ }
+ 
+ void apantisi_se_parapono(Parapono p)
+ {
+ 
+ }
+ 
+ void diagrafi_thesis_ergasias(Thesi_Ergasias t)
+ {
+     for(Thesi_Ergasias i: Main.theseis_ergasias)
+     {
+         if(i.get_kodikos()==t.get_kodikos())
+         {
+             Main.theseis_ergasias.remove(i);
+         }
+     }
+ }
+ 
+ void prosthiki_thesis_ergasias(Thesi_Ergasias t)
+ {
+      for(Thesi_Ergasias i: Main.theseis_ergasias)
+     {
+         if(i.get_kodikos()!=t.get_kodikos())
+         {
+             Main.theseis_ergasias.add(i);
+         }
+     }
+ }
  
 }
 
