@@ -4,10 +4,7 @@
  * and open the template in the editor.
  */
 
-/**
- *
- * @author jimva
- */
+
 public class Apantisi_se_parapono_provlima extends javax.swing.JFrame {
 
     /**
