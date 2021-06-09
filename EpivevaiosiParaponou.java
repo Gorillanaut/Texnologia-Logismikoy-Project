@@ -5,9 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- *
- */
+
 public class EpivevaiosiParaponou extends javax.swing.JFrame {
 
     /**

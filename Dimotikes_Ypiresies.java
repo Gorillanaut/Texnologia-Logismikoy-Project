@@ -5,9 +5,7 @@
  */
 package com.mycompany.ypallilos1;
 
-/**
- *
- */
+
 public class Dimotikes_Ypiresies extends javax.swing.JFrame {
 
     /**

@@ -5,9 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- *
- */
+
 public class Epilogi_Imerominias_Parastasis extends javax.swing.JFrame {
 
     /**

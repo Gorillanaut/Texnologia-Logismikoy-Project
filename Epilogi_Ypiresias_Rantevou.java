@@ -5,9 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- *
- */
+
 public class Epilogi_Ypiresias_Rantevou extends javax.swing.JFrame {
 
     /**

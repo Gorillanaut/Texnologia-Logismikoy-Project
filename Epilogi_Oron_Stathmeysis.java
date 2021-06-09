@@ -5,9 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- *
- */
+
 public class Epilogi_Oron_Stathmeysis extends javax.swing.JFrame {
 
     /**

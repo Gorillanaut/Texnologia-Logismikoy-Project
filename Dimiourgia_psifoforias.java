@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 
-/**
- *
- */
+
 public class Dimiourgia_psifoforias extends javax.swing.JFrame {
 
     /**

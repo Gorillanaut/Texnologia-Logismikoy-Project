@@ -5,8 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- */
+
 public class DiaxeirisiRantevou extends javax.swing.JFrame {
 
     /**
