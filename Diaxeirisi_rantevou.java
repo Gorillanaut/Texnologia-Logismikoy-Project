@@ -1,3 +1,5 @@
+package com.mycompany.epatras;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,12 +10,13 @@
  *
  * @author jimva
  */
-public class diaxeirisi_rantevou extends javax.swing.JFrame {
+public class Diaxeirisi_rantevou extends javax.swing.JFrame {
 
-    /** Creates new form diaxeirisi_rantevou */
-    public diaxeirisi_rantevou() {
+    /** Creates new form Diaxeirisi_rantevou */
+    public Diaxeirisi_rantevou() {
         initComponents();
     }
+    
 
     /** This method is called from within the constructor to
      * initialize the form.
@@ -144,20 +147,20 @@ public class diaxeirisi_rantevou extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Diaxeirisi_rantevou.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new diaxeirisi_rantevou().setVisible(true);
+                new Diaxeirisi_rantevou().setVisible(true);
             }
         });
     }
