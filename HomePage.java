@@ -5,10 +5,7 @@
  */
 package com.mycompany.epatras;
 
-/**
- *
- * @author 30697
- */
+
 public class HomePage extends javax.swing.JFrame {
 
     /**
